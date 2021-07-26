@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073DE79E2672B1C000293EAB /* PeriaidApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE79D2672B1C000293EAB /* PeriaidApp.swift */; };
+		073DE7A02672B1C000293EAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE79F2672B1C000293EAB /* ContentView.swift */; };
+		073DE7A22672B1C100293EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073DE7A12672B1C100293EAB /* Assets.xcassets */; };
+		073DE7A52672B1C100293EAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073DE7A42672B1C100293EAB /* Preview Assets.xcassets */; };
+		073DE7B02672B1C200293EAB /* PeriaidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE7AF2672B1C200293EAB /* PeriaidTests.swift */; };
+		073DE7BB2672B1C200293EAB /* PeriaidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE7BA2672B1C200293EAB /* PeriaidUITests.swift */; };
+		073DE7D12672C18F00293EAB /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE7D02672C18F00293EAB /* LocationView.swift */; };
+		073DE7D92672C68000293EAB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE7D82672C68000293EAB /* MapView.swift */; };
+		073DE7DE2683F6F400293EAB /* LocationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE7DD2683F6F400293EAB /* LocationCardView.swift */; };
+		073DE7E326842DC300293EAB /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE7E226842DC300293EAB /* HomePageView.swift */; };
+		073DE7EC2697D53B00293EAB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE7EB2697D53B00293EAB /* LocationManager.swift */; };
+		073DE7F12697DA7D00293EAB /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE7F02697DA7D00293EAB /* LocationModel.swift */; };
+		073DE7F62697DB3600293EAB /* LocationAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE7F52697DB3600293EAB /* LocationAnnotation.swift */; };
+		073DE7FB2697E48200293EAB /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DE7FA2697E48200293EAB /* ProfilePageView.swift */; };
+		073DE8082697E5F800293EAB /* profileMenu.json in Resources */ = {isa = PBXBuildFile; fileRef = 073DE8072697E5F800293EAB /* profileMenu.json */; };
+		07BE311C26A908D600074D91 /* LocationSearchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE311B26A908D600074D91 /* LocationSearchListView.swift */; };
+		07BE312126A95A2A00074D91 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE312026A95A2A00074D91 /* LocationListView.swift */; };
+		07BE312626AAC80500074D91 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE312526AAC80500074D91 /* ImagePicker.swift */; };
+		07BE312B26AADE9D00074D91 /* FilterPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BE312A26AADE9C00074D91 /* FilterPageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		073DE7AC2672B1C200293EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 073DE7922672B1C000293EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 073DE7992672B1C000293EAB;
+			remoteInfo = Periaid;
+		};
+		073DE7B72672B1C200293EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 073DE7922672B1C000293EAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 073DE7992672B1C000293EAB;
+			remoteInfo = Periaid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073DE79A2672B1C000293EAB /* Periaid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Periaid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		073DE79D2672B1C000293EAB /* PeriaidApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriaidApp.swift; sourceTree = "<group>"; };
+		073DE79F2672B1C000293EAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		073DE7A12672B1C100293EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		073DE7A42672B1C100293EAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		073DE7A62672B1C100293EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073DE7AB2672B1C200293EAB /* PeriaidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriaidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		073DE7AF2672B1C200293EAB /* PeriaidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriaidTests.swift; sourceTree = "<group>"; };
+		073DE7B12672B1C200293EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073DE7B62672B1C200293EAB /* PeriaidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriaidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		073DE7BA2672B1C200293EAB /* PeriaidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriaidUITests.swift; sourceTree = "<group>"; };
+		073DE7BC2672B1C200293EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073DE7D02672C18F00293EAB /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		073DE7D82672C68000293EAB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		073DE7DD2683F6F400293EAB /* LocationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCardView.swift; sourceTree = "<group>"; };
+		073DE7E226842DC300293EAB /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		073DE7EB2697D53B00293EAB /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		073DE7F02697DA7D00293EAB /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		073DE7F52697DB3600293EAB /* LocationAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnnotation.swift; sourceTree = "<group>"; };
+		073DE7FA2697E48200293EAB /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
+		073DE8072697E5F800293EAB /* profileMenu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = profileMenu.json; sourceTree = "<group>"; };
+		07BE311B26A908D600074D91 /* LocationSearchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchListView.swift; sourceTree = "<group>"; };
+		07BE312026A95A2A00074D91 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		07BE312526AAC80500074D91 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		07BE312A26AADE9C00074D91 /* FilterPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		073DE7972672B1C000293EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073DE7A82672B1C200293EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073DE7B32672B1C200293EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073DE7912672B1C000293EAB = {
+			isa = PBXGroup;
+			children = (
+				073DE79C2672B1C000293EAB /* Periaid */,
+				073DE7AE2672B1C200293EAB /* PeriaidTests */,
+				073DE7B92672B1C200293EAB /* PeriaidUITests */,
+				073DE79B2672B1C000293EAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		073DE79B2672B1C000293EAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				073DE79A2672B1C000293EAB /* Periaid.app */,
+				073DE7AB2672B1C200293EAB /* PeriaidTests.xctest */,
+				073DE7B62672B1C200293EAB /* PeriaidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		073DE79C2672B1C000293EAB /* Periaid */ = {
+			isa = PBXGroup;
+			children = (
+				073DE7EA2697D45B00293EAB /* Views */,
+				073DE7E82697D44800293EAB /* ViewControllers */,
+				073DE79D2672B1C000293EAB /* PeriaidApp.swift */,
+				073DE79F2672B1C000293EAB /* ContentView.swift */,
+				073DE7A12672B1C100293EAB /* Assets.xcassets */,
+				073DE7A62672B1C100293EAB /* Info.plist */,
+				073DE7A32672B1C100293EAB /* Preview Content */,
+				073DE7F02697DA7D00293EAB /* LocationModel.swift */,
+				073DE7F52697DB3600293EAB /* LocationAnnotation.swift */,
+				073DE8072697E5F800293EAB /* profileMenu.json */,
+				07BE312526AAC80500074D91 /* ImagePicker.swift */,
+				07BE312A26AADE9C00074D91 /* FilterPageView.swift */,
+			);
+			path = Periaid;
+			sourceTree = "<group>";
+		};
+		073DE7A32672B1C100293EAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				073DE7A42672B1C100293EAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		073DE7AE2672B1C200293EAB /* PeriaidTests */ = {
+			isa = PBXGroup;
+			children = (
+				073DE7AF2672B1C200293EAB /* PeriaidTests.swift */,
+				073DE7B12672B1C200293EAB /* Info.plist */,
+			);
+			path = PeriaidTests;
+			sourceTree = "<group>";
+		};
+		073DE7B92672B1C200293EAB /* PeriaidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				073DE7BA2672B1C200293EAB /* PeriaidUITests.swift */,
+				073DE7BC2672B1C200293EAB /* Info.plist */,
+			);
+			path = PeriaidUITests;
+			sourceTree = "<group>";
+		};
+		073DE7E82697D44800293EAB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				073DE7EB2697D53B00293EAB /* LocationManager.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		073DE7EA2697D45B00293EAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				073DE7D02672C18F00293EAB /* LocationView.swift */,
+				073DE7E226842DC300293EAB /* HomePageView.swift */,
+				073DE7DD2683F6F400293EAB /* LocationCardView.swift */,
+				073DE7D82672C68000293EAB /* MapView.swift */,
+				073DE7FA2697E48200293EAB /* ProfilePageView.swift */,
+				07BE311B26A908D600074D91 /* LocationSearchListView.swift */,
+				07BE312026A95A2A00074D91 /* LocationListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		073DE7992672B1C000293EAB /* Periaid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073DE7BF2672B1C200293EAB /* Build configuration list for PBXNativeTarget "Periaid" */;
+			buildPhases = (
+				073DE7962672B1C000293EAB /* Sources */,
+				073DE7972672B1C000293EAB /* Frameworks */,
+				073DE7982672B1C000293EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Periaid;
+			productName = Periaid;
+			productReference = 073DE79A2672B1C000293EAB /* Periaid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		073DE7AA2672B1C200293EAB /* PeriaidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073DE7C22672B1C200293EAB /* Build configuration list for PBXNativeTarget "PeriaidTests" */;
+			buildPhases = (
+				073DE7A72672B1C200293EAB /* Sources */,
+				073DE7A82672B1C200293EAB /* Frameworks */,
+				073DE7A92672B1C200293EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				073DE7AD2672B1C200293EAB /* PBXTargetDependency */,
+			);
+			name = PeriaidTests;
+			productName = PeriaidTests;
+			productReference = 073DE7AB2672B1C200293EAB /* PeriaidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		073DE7B52672B1C200293EAB /* PeriaidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073DE7C52672B1C200293EAB /* Build configuration list for PBXNativeTarget "PeriaidUITests" */;
+			buildPhases = (
+				073DE7B22672B1C200293EAB /* Sources */,
+				073DE7B32672B1C200293EAB /* Frameworks */,
+				073DE7B42672B1C200293EAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				073DE7B82672B1C200293EAB /* PBXTargetDependency */,
+			);
+			name = PeriaidUITests;
+			productName = PeriaidUITests;
+			productReference = 073DE7B62672B1C200293EAB /* PeriaidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		073DE7922672B1C000293EAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					073DE7992672B1C000293EAB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					073DE7AA2672B1C200293EAB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 073DE7992672B1C000293EAB;
+					};
+					073DE7B52672B1C200293EAB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 073DE7992672B1C000293EAB;
+					};
+				};
+			};
+			buildConfigurationList = 073DE7952672B1C000293EAB /* Build configuration list for PBXProject "Periaid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 073DE7912672B1C000293EAB;
+			productRefGroup = 073DE79B2672B1C000293EAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				073DE7992672B1C000293EAB /* Periaid */,
+				073DE7AA2672B1C200293EAB /* PeriaidTests */,
+				073DE7B52672B1C200293EAB /* PeriaidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		073DE7982672B1C000293EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073DE8082697E5F800293EAB /* profileMenu.json in Resources */,
+				073DE7A52672B1C100293EAB /* Preview Assets.xcassets in Resources */,
+				073DE7A22672B1C100293EAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073DE7A92672B1C200293EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073DE7B42672B1C200293EAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		073DE7962672B1C000293EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BE312626AAC80500074D91 /* ImagePicker.swift in Sources */,
+				073DE7F12697DA7D00293EAB /* LocationModel.swift in Sources */,
+				07BE311C26A908D600074D91 /* LocationSearchListView.swift in Sources */,
+				073DE7FB2697E48200293EAB /* ProfilePageView.swift in Sources */,
+				073DE7A02672B1C000293EAB /* ContentView.swift in Sources */,
+				073DE7D92672C68000293EAB /* MapView.swift in Sources */,
+				073DE7D12672C18F00293EAB /* LocationView.swift in Sources */,
+				073DE7EC2697D53B00293EAB /* LocationManager.swift in Sources */,
+				073DE7F62697DB3600293EAB /* LocationAnnotation.swift in Sources */,
+				07BE312B26AADE9D00074D91 /* FilterPageView.swift in Sources */,
+				073DE79E2672B1C000293EAB /* PeriaidApp.swift in Sources */,
+				07BE312126A95A2A00074D91 /* LocationListView.swift in Sources */,
+				073DE7E326842DC300293EAB /* HomePageView.swift in Sources */,
+				073DE7DE2683F6F400293EAB /* LocationCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073DE7A72672B1C200293EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073DE7B02672B1C200293EAB /* PeriaidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073DE7B22672B1C200293EAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073DE7BB2672B1C200293EAB /* PeriaidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		073DE7AD2672B1C200293EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 073DE7992672B1C000293EAB /* Periaid */;
+			targetProxy = 073DE7AC2672B1C200293EAB /* PBXContainerItemProxy */;
+		};
+		073DE7B82672B1C200293EAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 073DE7992672B1C000293EAB /* Periaid */;
+			targetProxy = 073DE7B72672B1C200293EAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		073DE7BD2672B1C200293EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		073DE7BE2672B1C200293EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		073DE7C02672B1C200293EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Periaid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Periaid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Periaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		073DE7C12672B1C200293EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Periaid/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Periaid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Periaid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		073DE7C32672B1C200293EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeriaidTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PeriaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periaid.app/Periaid";
+			};
+			name = Debug;
+		};
+		073DE7C42672B1C200293EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeriaidTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PeriaidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periaid.app/Periaid";
+			};
+			name = Release;
+		};
+		073DE7C62672B1C200293EAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeriaidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PeriaidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Periaid;
+			};
+			name = Debug;
+		};
+		073DE7C72672B1C200293EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PeriaidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PeriaidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Periaid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073DE7952672B1C000293EAB /* Build configuration list for PBXProject "Periaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073DE7BD2672B1C200293EAB /* Debug */,
+				073DE7BE2672B1C200293EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073DE7BF2672B1C200293EAB /* Build configuration list for PBXNativeTarget "Periaid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073DE7C02672B1C200293EAB /* Debug */,
+				073DE7C12672B1C200293EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073DE7C22672B1C200293EAB /* Build configuration list for PBXNativeTarget "PeriaidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073DE7C32672B1C200293EAB /* Debug */,
+				073DE7C42672B1C200293EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073DE7C52672B1C200293EAB /* Build configuration list for PBXNativeTarget "PeriaidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073DE7C62672B1C200293EAB /* Debug */,
+				073DE7C72672B1C200293EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 073DE7922672B1C000293EAB /* Project object */;
+}
